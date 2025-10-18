@@ -24,7 +24,7 @@ def summarize_growth(df: pd.DataFrame) -> dict:
     }
 
 def print_summary(metrics: dict):
-    print("📊 Weekly Growth Summary:")
+    print("Weekly Growth Summary:")
     print(f"- Revenue Growth: +{metrics['revenue_growth_%']}%")
     print(f"- Conversion Rate Change: {metrics['conversion_delta']} pts")
     print(f"- Churn Improvement: {metrics['churn_improvement']} pts")
